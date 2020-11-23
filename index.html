@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Matcha Blog Creator</title>
+</head>
+<body>
+    <!-- ______NAVBAR______ -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarAltMarkup"
+          aria-controls="navbarAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarAltMarkup">
+            <ul class="navbar-nav mx-auto">
+            
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Templates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <a href="#">Sing in</a>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                        Get started free
+                    </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <div class="container mb-5">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <h1>Optimize your blog.
+                    Measure the results.
+                </h1>
+                <p>
+                    Blog better with the first all-in-one blogging tool for growing ecommerce brands.
+                     Connect your blog, create and optimize blog posts for each stage of the buyer’s 
+                     journey, and measure the results.  
+                </p>
+                <div class="row mx-auto">
+                    <button class="btn btn-success mr-3">Start free tial</button>
+                    <img src="./resources/shopify-stars.svg">
+                </div>
+                <p class="p-trial">
+                    Blog better today with a free 7-day trial.
+                    No credit card required.
+                </p>
+            </div>
+            <!-- Video -->
+            <div class="col-6 d-flex justify-content-center col-video">
+                <button type="button" class="btn btn-light d-block" data-toggle="modal" data-target="#exampleModal">
+                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-caret-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                      </svg>
+                      <p>PRESS PLAY</p>                    
+                  </button>
+                  
+                  <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+    <!-- Ecommerce Brands -->
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col d-flex justify-content-center">
+                <p class="p-trusted">TRUSTED BY GROWING ECOMMERCE BRANDS</p>
+            </div>            
+        </div>
+        <div class="row align-items-center no-gutters">     
+            <div class="col">
+                <img src="./resources/brand1.PNG" alt="" class="brand">
+            </div>
+            <div class="col">
+                <img src="./resources/brand2.PNG" alt="" class="brand">
+            </div>
+            <div class="col">
+                <img src="./resources/brand3.PNG" alt="" class="brand">
+            </div>
+            <div class="col">
+                <img src="./resources/brand4.PNG" alt="" class="brand">
+            </div>
+            <div class="col">
+                <img src="./resources/brand5.PNG" alt="" class="brand">
+            </div>
+            <div class="col">
+                <img src="./resources/brand6.PNG" alt="" class="brand">
+            </div>      
+        </div>
+    </div>
+
+    <!-- _____TOP FEATURES_______ -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2>Top Features</h2>
+        </div>
+        <div class="row justify-content-center">
+            <p>Your blog is your most powerful asset to build, engage, and retain a loyal audience.</p>
+        </div>
+        <div class="row no-gutters">
+            <div class="col">
+                <div class="card align-items-center">
+                    <img src="./resources/features1.PNG" class="card-img-top" alt="...">
+                    <div class="card-body" style="width: 18rem;">
+                        <h4 class="text-center">Create content that converts.</h4>
+                      <p class="card-text text-center">
+                          Write and format blog posts within Matcha or update existing posts with Matcha’s lead and sale conversion tools. 
+                          Optimize for SEO, then schedule or publish immediately to your blog.
+                        </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center">
+                    <img src="./resources/features2.PNG" class="card-img-top" alt="...">
+                    <div class="card-body" style="width: 18rem;">
+                        <h4 class="text-center">Embed your products and collections.</h4>
+                      <p class="card-text text-center">
+                        Turn your readers into customers by embedding Shopify products and product collections into or 
+                        beneath your blog posts with “View Product” or “Add to Cart” CTAs.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center">
+                    <img src="./resources/features3.PNG" class="card-img-top" alt="...">
+                    <div class="card-body" style="width: 18rem;">
+                        <h4 class="text-center">Analyze full-funnel content insights.</h4>
+                      <p class="card-text text-center">                        
+                        Make data-driven decisions for your content strategy with in-depth analytics,
+                         from traffic, engagement, and read time to influenced email subscribers and revenue.
+                        </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ______Tools to help you______ -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <h3>Tools to help you publish more and convert readers.</h3>
+        </div>
+        <div class="row no-gutters align-items-center">
+            <div class="col">
+                <div class="card align-items-center"  style="width: 16rem;">
+                    <img src="./resources/features1.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Grow your email list with locked content.</h4>
+                      <p class="card-text text-center">Turn readers into subscribers with customizable forms. Create content exclusive to your brand's community.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center"  style="width: 16rem;">
+                    <img src="./resources/features2.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Segment subscribers by their content interests.</h4>
+                      <p class="card-text text-center">Instantly export rich subscriber data to Mailchimp or Klaviyo for targeted email campaigns.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center"  style="width: 16rem;">
+                    <img src="./resources/features3.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Schedule content to social and preview content in email.</h4>
+                      <p class="card-text text-center">Schedule posts to your Facebook Page, and easily embed beautiful content previews into your Mailchimp or Klaviyo email campaigns.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center" style="width: 16rem;">
+                    <img src="./resources/features3.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Increase publishing frequency with licensed content.</h4>
+                      <p class="card-text text-center">Explore a library of 12,000+ SEO-friendly articles. Customize to your brand, add conversion tools, and publish instantly to your blog.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- _________SCRIPTS JS_________ -->
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous">
+        </script>
+</body>
+</html>

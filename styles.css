@@ -1,0 +1,37 @@
+.div-brands{
+    height: 80px;
+}
+
+.brand{
+    height: 80px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'DM Serif Display', serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.p-trial{
+    font-size: 14px;
+    color: darkgray;
+}
+
+.p-trusted{
+    font-size: 14px;
+    color: darkgray;
+}
